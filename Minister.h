@@ -25,8 +25,8 @@ public:
     int get_memberID();
     void set_state(string minister_state);
     string get_state();
-    //void set_voterID();
-    //static int get_voterID();
+    void set_voterID();
+    static int get_voterID();
 };
 
 #endif
