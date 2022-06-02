@@ -13,24 +13,24 @@ MemberOfParliament::MemberOfParliament(string n, string p, int l){
     position = p;
     yearsService = l;
 }
-virtual bool MemberOfParliament::isElectionYear(){
+bool MemberOfParliament::isElectionYear(){
     // true if the representative has to run for election
 }
 void MemberOfParliament::set_name(string n){
-
+    name = n;
 }
 string MemberOfParliament::get_name(){
-
+    return name;
 }
 void MemberOfParliament::set_position(string p){
-
+    position = p;
 }
 string MemberOfParliament::get_position(){
-
+    return postion;
 }
 void MemberOfParliament::set_yearsService(int l){
-
+    yearsService = l;
 }
 int MemberOfParliament::get_yearsService(){
-
+    return yearsService;
 }
