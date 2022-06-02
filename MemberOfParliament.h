@@ -7,7 +7,7 @@
 using namespace std;
 
 class MemberOfParliament {
-private:
+protected:
     string name;              // the name of the MemberOfParliament
     string position;          // the position of the MemberOfParliament
     int yearsService;         // the years of service in MemberOfParliament; takes only non-negative values
